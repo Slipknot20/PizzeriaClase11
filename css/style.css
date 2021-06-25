@@ -1,131 +1,175 @@
 *{
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
     margin: 0%;
 }
 
 header{
-    background: #1CD1B0;
-    padding: 1px;
-    margin: 0;
-    display: block;
+    background: #222222;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
 }
 
-.titu{
+div{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.principal{
+    padding: 20px;
+}
+
+.principal1{
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 250px;
+}
+
+.list1{
+    color: white;
+    width: 100%;
     padding: 10px;
-    font-size: 1rem;
+    height: 20px;
+    justify-content: flex-end;
+}
+.list1 ul li{
+    float: left;
+    display: block;
+    padding: 0px 12px;
+    font-size: 25px;
 }
 
-.titu2{
-    padding: 28px;
-    font-size: 3rem;
-    background-color: #00669F;
-    box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
-    text-align: left;
+ul>li{
+    list-style: none;
+    display: flex;
+
+}
+
+.pizza{
+    height: 120px;
+}
+
+.t1{
+    color: #39B24A; 
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.t2{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.t3{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .conteiner{
     display: flex;
-    height: 833px;
-    justify-content: center;
-    padding: 154px 0 151px 0
+    width: 100%;
+    background: #E5E5E5;
 }
 
-.conteiner1{
-    height: 529px;
-    width: 300px;
-    background-color: #f3f3f3;
-    border-radius: 20px 20px 0px 0px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    margin: 0 15px;
-    float: left;
+.des1{
+    margin: 4px;
 }
 
-.conteiner2{
-    height: 529px;
-    width: 300px;
-    background-color: #f3f3f3;
-    border-radius: 20px 20px 0px 0px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    margin: 0 15px;
-    float: left;
-}
-
-.conteiner3{
-    height: 529px;
-    width: 300px;
-    background-color: #f3f3f3;
-    border-radius: 20px 20px 0px 0px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    margin: 0 15px;
-    float: left;
-}
-
-#joker{
-    border-radius: 20px 20px 0px 0px;
-    width: 300px;
-    height: 193px;
-    left: 362px;
-    top: 293px;
-}
-
-.hearth{
+.des1 p{
+    z-index: 100;
+    color: red;
+    left: 510px;
+    width: 480px;
     position: relative;
-    left: 15px;
-    top: -180px;
+    font-size: 30px;
+    font-weight: bolder;
 }
-
-.card_img{
-    position: relative;
-    border-radius: 50%;
-    top: -100px;
-    left: 90px;
-    image-orientation
-}
-
-#joker_img{
-    position: relative;
-    width: 122px;
-    height: 122px;
-    left: 90px;
-    top: -100px;
-    border-radius: 50%;
-}
-
-.title{
-    position: relative;
-    text-align: center;
-    top: -100px;
-}
-
-.descrip{
-    position: relative;
-    margin: 15px;
-    top: -100px;
-    font-weight: 400;
-}
-
-.boton{
-    position: relative;
-    top: -70px;
-    left: 85px;
-    width: 128.78px;
-    height: 48.52px;
-    background: #00669F;
+.des1 p span{
     color: white;
-    border: none;
+}
+#imgpizza{
+    z-index: 100;
+    height: 150px;
+    top: 100px;
+    position: relative;
+    right: 50px;
+}
+
+.des2{
+    height: 360px;
+    margin: 4px;
+    background: white;
+    border-radius: 5px;
+    width: 620px;
+    padding: 26px;
+    
+}
+.des2 h1{
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    left: 250px;
+    position: relative;
+}
+
+.des2 p{
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    right: 100px;
+    top: 110px;
+    display: flex;
+}
+
+.des2 ol li{
+    font-weight: bolder;
+    font-size: 15px;
+    position: relative;
+    right: 230px;
+    top: 150px;
+    margin: 10px;
 }
 
 footer{
-    position:absolute;
-    background: #00669f;
+    display: flex;
+    background: #222222;
     width: 100%;
-    height: 51px;
-    top: 972px;
+    height: 200px;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    margin: 0%;
 }
-
-footer>p{
-    margin: 15px;
+.list2{
     color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    align-items: flex-start;
+}
+.list2 ul li{
+    color: white;
+    width: 20%;
+    align-items: flex-start;
+    padding: 5px 0px;
 }
 
+.principal2{
+    padding: 10px;
+    height: 120px;
+    justify-content: flex-end;
+}
+
+.principal3{
+    padding: 10px;
+    height: 20px;
+    justify-content: flex-end;   
+}
